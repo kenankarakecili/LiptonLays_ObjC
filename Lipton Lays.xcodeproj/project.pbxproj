@@ -1,0 +1,827 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 47;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		361EF6B31B6F54F100E36574 /* GetRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 361EF6B21B6F54F100E36574 /* GetRequest.m */; };
+		361EF6B81B6F8A8B00E36574 /* Visit.m in Sources */ = {isa = PBXBuildFile; fileRef = 361EF6B71B6F8A8B00E36574 /* Visit.m */; };
+		361EF6BB1B6F8B2700E36574 /* NewVisitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 361EF6BA1B6F8B2700E36574 /* NewVisitViewController.m */; };
+		361EF6BE1B6F970100E36574 /* VisitDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 361EF6BD1B6F970100E36574 /* VisitDetailViewController.m */; };
+		361EF6C11B6F9D5B00E36574 /* UIImage+FixOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 361EF6C01B6F9D5B00E36574 /* UIImage+FixOrientation.m */; };
+		361EF6C41B6FB55B00E36574 /* PhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 361EF6C31B6FB55B00E36574 /* PhotoCollectionViewCell.m */; };
+		361EF6CA1B6FBD4000E36574 /* AddVisitRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 361EF6C91B6FBD4000E36574 /* AddVisitRequest.m */; };
+		366AC10B1B700DA1005BA280 /* Top10ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 366AC10A1B700DA1005BA280 /* Top10ViewController.m */; };
+		366AC1101B700FD7005BA280 /* Top10TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 366AC10F1B700FD7005BA280 /* Top10TableViewCell.m */; };
+		366B22111B6DFBE0002137F5 /* CustomField.m in Sources */ = {isa = PBXBuildFile; fileRef = 366B22101B6DFBE0002137F5 /* CustomField.m */; };
+		366B22151B6DFFDA002137F5 /* BaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 366B22141B6DFFDA002137F5 /* BaseRequest.m */; };
+		366B22181B6E0157002137F5 /* AddTeamRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 366B22171B6E0157002137F5 /* AddTeamRequest.m */; };
+		366B221C1B6E0180002137F5 /* Team.m in Sources */ = {isa = PBXBuildFile; fileRef = 366B221B1B6E0180002137F5 /* Team.m */; };
+		366B221F1B6E05FD002137F5 /* ConnectionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 366B221E1B6E05FD002137F5 /* ConnectionHandler.m */; };
+		366B22221B6E08C7002137F5 /* LiptonAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 366B22211B6E08C7002137F5 /* LiptonAPI.m */; };
+		366B22251B6E2859002137F5 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 366B22241B6E2859002137F5 /* Reachability.m */; };
+		366B22291B6E38F0002137F5 /* VisitsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 366B22281B6E38F0002137F5 /* VisitsViewController.m */; };
+		366B22311B6E39D9002137F5 /* ContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 366B22301B6E39D9002137F5 /* ContainerViewController.m */; };
+		366B22361B6E3D84002137F5 /* TabBarCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 366B22351B6E3D84002137F5 /* TabBarCollectionViewCell.m */; };
+		366B223B1B6E79B4002137F5 /* VisitTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 366B223A1B6E79B4002137F5 /* VisitTableViewCell.m */; };
+		366D26AE1B716DA50062DE3B /* PhotoDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 366D26AD1B716DA50062DE3B /* PhotoDetailViewController.m */; };
+		366D26B11B7180520062DE3B /* CountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 366D26B01B7180520062DE3B /* CountViewController.m */; };
+		36840BBC1B733671008D4426 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36840BBB1B733671008D4426 /* Social.framework */; };
+		36840BBE1B7336A4008D4426 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36840BBD1B7336A4008D4426 /* AudioToolbox.framework */; };
+		36840BC01B733709008D4426 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36840BBF1B733709008D4426 /* Accounts.framework */; };
+		36840BC51B733ACE008D4426 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36840BC11B733ACE008D4426 /* Bolts.framework */; };
+		36840BC61B733ACE008D4426 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36840BC21B733ACE008D4426 /* Parse.framework */; };
+		36840BC71B733ACE008D4426 /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36840BC31B733ACE008D4426 /* ParseCrashReporting.framework */; };
+		36840BC81B733ACE008D4426 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36840BC41B733ACE008D4426 /* ParseUI.framework */; };
+		369C42AF1B6D608B0073AA1A /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 369C42AE1B6D608B0073AA1A /* BaseViewController.m */; };
+		369C42B21B6D60A60073AA1A /* CreateTeamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 369C42B11B6D60A60073AA1A /* CreateTeamViewController.m */; };
+		36DE01251B7285170002B269 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 36DE01241B7285170002B269 /* libsqlite3.dylib */; };
+		36DE01271B7285240002B269 /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 36DE01261B7285240002B269 /* libz.1.1.3.dylib */; };
+		36DE01291B7285350002B269 /* libstdc++.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 36DE01281B7285350002B269 /* libstdc++.6.dylib */; };
+		36FD57B71B6D4D59004AE21E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 36FD57B61B6D4D59004AE21E /* main.m */; };
+		36FD57BA1B6D4D59004AE21E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36FD57B91B6D4D59004AE21E /* AppDelegate.m */; };
+		36FD57C01B6D4D59004AE21E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36FD57BE1B6D4D59004AE21E /* Main.storyboard */; };
+		36FD57C21B6D4D59004AE21E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36FD57C11B6D4D59004AE21E /* Images.xcassets */; };
+		36FD57D11B6D4D59004AE21E /* Lipton_LaysTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 36FD57D01B6D4D59004AE21E /* Lipton_LaysTests.m */; };
+		69989DB170AB63FC9161A7A0 /* libPods-Lipton Lays.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 32ED546A6D09611CA6FFC548 /* libPods-Lipton Lays.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		36FD57CB1B6D4D59004AE21E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36FD57A91B6D4D59004AE21E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36FD57B01B6D4D59004AE21E;
+			remoteInfo = "Lipton Lays";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		32ED546A6D09611CA6FFC548 /* libPods-Lipton Lays.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Lipton Lays.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		361EF6B11B6F54F100E36574 /* GetRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetRequest.h; sourceTree = "<group>"; };
+		361EF6B21B6F54F100E36574 /* GetRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetRequest.m; sourceTree = "<group>"; };
+		361EF6B61B6F8A8B00E36574 /* Visit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Visit.h; sourceTree = "<group>"; };
+		361EF6B71B6F8A8B00E36574 /* Visit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Visit.m; sourceTree = "<group>"; };
+		361EF6B91B6F8B2700E36574 /* NewVisitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewVisitViewController.h; sourceTree = "<group>"; };
+		361EF6BA1B6F8B2700E36574 /* NewVisitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewVisitViewController.m; sourceTree = "<group>"; };
+		361EF6BC1B6F970100E36574 /* VisitDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VisitDetailViewController.h; sourceTree = "<group>"; };
+		361EF6BD1B6F970100E36574 /* VisitDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VisitDetailViewController.m; sourceTree = "<group>"; };
+		361EF6BF1B6F9D5B00E36574 /* UIImage+FixOrientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FixOrientation.h"; sourceTree = "<group>"; };
+		361EF6C01B6F9D5B00E36574 /* UIImage+FixOrientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FixOrientation.m"; sourceTree = "<group>"; };
+		361EF6C21B6FB55B00E36574 /* PhotoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoCollectionViewCell.h; sourceTree = "<group>"; };
+		361EF6C31B6FB55B00E36574 /* PhotoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoCollectionViewCell.m; sourceTree = "<group>"; };
+		361EF6C81B6FBD4000E36574 /* AddVisitRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddVisitRequest.h; sourceTree = "<group>"; };
+		361EF6C91B6FBD4000E36574 /* AddVisitRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddVisitRequest.m; sourceTree = "<group>"; };
+		366AC1091B700DA1005BA280 /* Top10ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Top10ViewController.h; sourceTree = "<group>"; };
+		366AC10A1B700DA1005BA280 /* Top10ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Top10ViewController.m; sourceTree = "<group>"; };
+		366AC10E1B700FD7005BA280 /* Top10TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Top10TableViewCell.h; sourceTree = "<group>"; };
+		366AC10F1B700FD7005BA280 /* Top10TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Top10TableViewCell.m; sourceTree = "<group>"; };
+		366B220F1B6DFBE0002137F5 /* CustomField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomField.h; sourceTree = "<group>"; };
+		366B22101B6DFBE0002137F5 /* CustomField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomField.m; sourceTree = "<group>"; };
+		366B22131B6DFFDA002137F5 /* BaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseRequest.h; sourceTree = "<group>"; };
+		366B22141B6DFFDA002137F5 /* BaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseRequest.m; sourceTree = "<group>"; };
+		366B22161B6E0157002137F5 /* AddTeamRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddTeamRequest.h; sourceTree = "<group>"; };
+		366B22171B6E0157002137F5 /* AddTeamRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddTeamRequest.m; sourceTree = "<group>"; };
+		366B221A1B6E0180002137F5 /* Team.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Team.h; sourceTree = "<group>"; };
+		366B221B1B6E0180002137F5 /* Team.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Team.m; sourceTree = "<group>"; };
+		366B221D1B6E05FD002137F5 /* ConnectionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectionHandler.h; sourceTree = "<group>"; };
+		366B221E1B6E05FD002137F5 /* ConnectionHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectionHandler.m; sourceTree = "<group>"; };
+		366B22201B6E08C7002137F5 /* LiptonAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiptonAPI.h; sourceTree = "<group>"; };
+		366B22211B6E08C7002137F5 /* LiptonAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiptonAPI.m; sourceTree = "<group>"; };
+		366B22231B6E2859002137F5 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		366B22241B6E2859002137F5 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		366B22271B6E38F0002137F5 /* VisitsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VisitsViewController.h; sourceTree = "<group>"; };
+		366B22281B6E38F0002137F5 /* VisitsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VisitsViewController.m; sourceTree = "<group>"; };
+		366B222F1B6E39D9002137F5 /* ContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContainerViewController.h; sourceTree = "<group>"; };
+		366B22301B6E39D9002137F5 /* ContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContainerViewController.m; sourceTree = "<group>"; };
+		366B22341B6E3D84002137F5 /* TabBarCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarCollectionViewCell.h; sourceTree = "<group>"; };
+		366B22351B6E3D84002137F5 /* TabBarCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarCollectionViewCell.m; sourceTree = "<group>"; };
+		366B22391B6E79B4002137F5 /* VisitTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VisitTableViewCell.h; sourceTree = "<group>"; };
+		366B223A1B6E79B4002137F5 /* VisitTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VisitTableViewCell.m; sourceTree = "<group>"; };
+		366D26AC1B716DA50062DE3B /* PhotoDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoDetailViewController.h; sourceTree = "<group>"; };
+		366D26AD1B716DA50062DE3B /* PhotoDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoDetailViewController.m; sourceTree = "<group>"; };
+		366D26AF1B7180520062DE3B /* CountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountViewController.h; sourceTree = "<group>"; };
+		366D26B01B7180520062DE3B /* CountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountViewController.m; sourceTree = "<group>"; };
+		36840BBB1B733671008D4426 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		36840BBD1B7336A4008D4426 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		36840BBF1B733709008D4426 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		36840BC11B733ACE008D4426 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		36840BC21B733ACE008D4426 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		36840BC31B733ACE008D4426 /* ParseCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseCrashReporting.framework; sourceTree = "<group>"; };
+		36840BC41B733ACE008D4426 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		369C42A61B6D574D0073AA1A /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		369C42AD1B6D608B0073AA1A /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		369C42AE1B6D608B0073AA1A /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		369C42B01B6D60A60073AA1A /* CreateTeamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateTeamViewController.h; sourceTree = "<group>"; };
+		369C42B11B6D60A60073AA1A /* CreateTeamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateTeamViewController.m; sourceTree = "<group>"; };
+		36DE01241B7285170002B269 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		36DE01261B7285240002B269 /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		36DE01281B7285350002B269 /* libstdc++.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.dylib"; path = "usr/lib/libstdc++.6.dylib"; sourceTree = SDKROOT; };
+		36FD57B11B6D4D59004AE21E /* Lipton Lays.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lipton Lays.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36FD57B51B6D4D59004AE21E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36FD57B61B6D4D59004AE21E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		36FD57B81B6D4D59004AE21E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		36FD57B91B6D4D59004AE21E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		36FD57BF1B6D4D59004AE21E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		36FD57C11B6D4D59004AE21E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		36FD57CA1B6D4D59004AE21E /* Lipton LaysTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lipton LaysTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36FD57CF1B6D4D59004AE21E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36FD57D01B6D4D59004AE21E /* Lipton_LaysTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lipton_LaysTests.m; sourceTree = "<group>"; };
+		9FF29D2322D96C0B99C22ACD /* Pods-Lipton Lays.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lipton Lays.release.xcconfig"; path = "Pods/Target Support Files/Pods-Lipton Lays/Pods-Lipton Lays.release.xcconfig"; sourceTree = "<group>"; };
+		BDADE08674279B0DF692F08A /* Pods-Lipton Lays.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lipton Lays.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Lipton Lays/Pods-Lipton Lays.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36FD57AE1B6D4D59004AE21E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36840BC81B733ACE008D4426 /* ParseUI.framework in Frameworks */,
+				36840BC01B733709008D4426 /* Accounts.framework in Frameworks */,
+				36840BC71B733ACE008D4426 /* ParseCrashReporting.framework in Frameworks */,
+				36840BC61B733ACE008D4426 /* Parse.framework in Frameworks */,
+				36840BBE1B7336A4008D4426 /* AudioToolbox.framework in Frameworks */,
+				36840BBC1B733671008D4426 /* Social.framework in Frameworks */,
+				36DE01291B7285350002B269 /* libstdc++.6.dylib in Frameworks */,
+				36DE01271B7285240002B269 /* libz.1.1.3.dylib in Frameworks */,
+				36DE01251B7285170002B269 /* libsqlite3.dylib in Frameworks */,
+				69989DB170AB63FC9161A7A0 /* libPods-Lipton Lays.a in Frameworks */,
+				36840BC51B733ACE008D4426 /* Bolts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36FD57C71B6D4D59004AE21E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		361EF6B51B6F8A7C00E36574 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				361EF6B61B6F8A8B00E36574 /* Visit.h */,
+				361EF6B71B6F8A8B00E36574 /* Visit.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		366AC1081B700D78005BA280 /* Top10 */ = {
+			isa = PBXGroup;
+			children = (
+				366AC10C1B700FB6005BA280 /* View */,
+				366AC10D1B700FBD005BA280 /* Controller */,
+			);
+			path = Top10;
+			sourceTree = "<group>";
+		};
+		366AC10C1B700FB6005BA280 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				366AC10E1B700FD7005BA280 /* Top10TableViewCell.h */,
+				366AC10F1B700FD7005BA280 /* Top10TableViewCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		366AC10D1B700FBD005BA280 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				366AC1091B700DA1005BA280 /* Top10ViewController.h */,
+				366AC10A1B700DA1005BA280 /* Top10ViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		366B220A1B6DF9EF002137F5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				366B22201B6E08C7002137F5 /* LiptonAPI.h */,
+				366B22211B6E08C7002137F5 /* LiptonAPI.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		366B220E1B6DFBA3002137F5 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				366B220F1B6DFBE0002137F5 /* CustomField.h */,
+				366B22101B6DFBE0002137F5 /* CustomField.m */,
+				366B22231B6E2859002137F5 /* Reachability.h */,
+				366B22241B6E2859002137F5 /* Reachability.m */,
+				361EF6BF1B6F9D5B00E36574 /* UIImage+FixOrientation.h */,
+				361EF6C01B6F9D5B00E36574 /* UIImage+FixOrientation.m */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		366B22121B6DFF93002137F5 /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				366B22131B6DFFDA002137F5 /* BaseRequest.h */,
+				366B22141B6DFFDA002137F5 /* BaseRequest.m */,
+				366B22161B6E0157002137F5 /* AddTeamRequest.h */,
+				366B22171B6E0157002137F5 /* AddTeamRequest.m */,
+				361EF6C81B6FBD4000E36574 /* AddVisitRequest.h */,
+				361EF6C91B6FBD4000E36574 /* AddVisitRequest.m */,
+				361EF6B11B6F54F100E36574 /* GetRequest.h */,
+				361EF6B21B6F54F100E36574 /* GetRequest.m */,
+				366B221D1B6E05FD002137F5 /* ConnectionHandler.h */,
+				366B221E1B6E05FD002137F5 /* ConnectionHandler.m */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		366B22191B6E0170002137F5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				366B221A1B6E0180002137F5 /* Team.h */,
+				366B221B1B6E0180002137F5 /* Team.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		366B22261B6E38B5002137F5 /* Visits */ = {
+			isa = PBXGroup;
+			children = (
+				361EF6B51B6F8A7C00E36574 /* Model */,
+				366B22381B6E7998002137F5 /* View */,
+				366B22371B6E7991002137F5 /* Controller */,
+			);
+			path = Visits;
+			sourceTree = "<group>";
+		};
+		366B222E1B6E399A002137F5 /* Container */ = {
+			isa = PBXGroup;
+			children = (
+				366B22331B6E3D59002137F5 /* View */,
+				366B22321B6E3A91002137F5 /* Controller */,
+			);
+			path = Container;
+			sourceTree = "<group>";
+		};
+		366B22321B6E3A91002137F5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				366B222F1B6E39D9002137F5 /* ContainerViewController.h */,
+				366B22301B6E39D9002137F5 /* ContainerViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		366B22331B6E3D59002137F5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				366B22341B6E3D84002137F5 /* TabBarCollectionViewCell.h */,
+				366B22351B6E3D84002137F5 /* TabBarCollectionViewCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		366B22371B6E7991002137F5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				366B22271B6E38F0002137F5 /* VisitsViewController.h */,
+				366B22281B6E38F0002137F5 /* VisitsViewController.m */,
+				361EF6B91B6F8B2700E36574 /* NewVisitViewController.h */,
+				361EF6BA1B6F8B2700E36574 /* NewVisitViewController.m */,
+				361EF6BC1B6F970100E36574 /* VisitDetailViewController.h */,
+				361EF6BD1B6F970100E36574 /* VisitDetailViewController.m */,
+				366D26AC1B716DA50062DE3B /* PhotoDetailViewController.h */,
+				366D26AD1B716DA50062DE3B /* PhotoDetailViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		366B22381B6E7998002137F5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				366B22391B6E79B4002137F5 /* VisitTableViewCell.h */,
+				366B223A1B6E79B4002137F5 /* VisitTableViewCell.m */,
+				361EF6C21B6FB55B00E36574 /* PhotoCollectionViewCell.h */,
+				361EF6C31B6FB55B00E36574 /* PhotoCollectionViewCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		369C42A91B6D600A0073AA1A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				369C42AC1B6D60660073AA1A /* Main */,
+				369C42AA1B6D60390073AA1A /* CreateTeam */,
+				366B222E1B6E399A002137F5 /* Container */,
+				366B22261B6E38B5002137F5 /* Visits */,
+				366AC1081B700D78005BA280 /* Top10 */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		369C42AA1B6D60390073AA1A /* CreateTeam */ = {
+			isa = PBXGroup;
+			children = (
+				366B22191B6E0170002137F5 /* Model */,
+				369C42AB1B6D60520073AA1A /* Controller */,
+			);
+			path = CreateTeam;
+			sourceTree = "<group>";
+		};
+		369C42AB1B6D60520073AA1A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				369C42B01B6D60A60073AA1A /* CreateTeamViewController.h */,
+				369C42B11B6D60A60073AA1A /* CreateTeamViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		369C42AC1B6D60660073AA1A /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				369C42AD1B6D608B0073AA1A /* BaseViewController.h */,
+				369C42AE1B6D608B0073AA1A /* BaseViewController.m */,
+				366D26AF1B7180520062DE3B /* CountViewController.h */,
+				366D26B01B7180520062DE3B /* CountViewController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		36FD57A81B6D4D59004AE21E = {
+			isa = PBXGroup;
+			children = (
+				36FD57B31B6D4D59004AE21E /* Lipton Lays */,
+				36FD57CD1B6D4D59004AE21E /* Lipton LaysTests */,
+				36FD57B21B6D4D59004AE21E /* Products */,
+				725A1DA9BD993E74758C86B2 /* Pods */,
+				E708196538D02687B3B0F51F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		36FD57B21B6D4D59004AE21E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36FD57B11B6D4D59004AE21E /* Lipton Lays.app */,
+				36FD57CA1B6D4D59004AE21E /* Lipton LaysTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36FD57B31B6D4D59004AE21E /* Lipton Lays */ = {
+			isa = PBXGroup;
+			children = (
+				36FD57B81B6D4D59004AE21E /* AppDelegate.h */,
+				36FD57B91B6D4D59004AE21E /* AppDelegate.m */,
+				369C42A61B6D574D0073AA1A /* Constants.h */,
+				36FD57BE1B6D4D59004AE21E /* Main.storyboard */,
+				36FD57C11B6D4D59004AE21E /* Images.xcassets */,
+				366B220E1B6DFBA3002137F5 /* Utilities */,
+				366B22121B6DFF93002137F5 /* Requests */,
+				366B220A1B6DF9EF002137F5 /* Classes */,
+				369C42A91B6D600A0073AA1A /* ViewControllers */,
+				36FD57B41B6D4D59004AE21E /* Supporting Files */,
+			);
+			path = "Lipton Lays";
+			sourceTree = "<group>";
+		};
+		36FD57B41B6D4D59004AE21E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				36FD57B51B6D4D59004AE21E /* Info.plist */,
+				36FD57B61B6D4D59004AE21E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		36FD57CD1B6D4D59004AE21E /* Lipton LaysTests */ = {
+			isa = PBXGroup;
+			children = (
+				36FD57D01B6D4D59004AE21E /* Lipton_LaysTests.m */,
+				36FD57CE1B6D4D59004AE21E /* Supporting Files */,
+			);
+			path = "Lipton LaysTests";
+			sourceTree = "<group>";
+		};
+		36FD57CE1B6D4D59004AE21E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				36FD57CF1B6D4D59004AE21E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		725A1DA9BD993E74758C86B2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BDADE08674279B0DF692F08A /* Pods-Lipton Lays.debug.xcconfig */,
+				9FF29D2322D96C0B99C22ACD /* Pods-Lipton Lays.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E708196538D02687B3B0F51F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				36840BBF1B733709008D4426 /* Accounts.framework */,
+				36840BBD1B7336A4008D4426 /* AudioToolbox.framework */,
+				36840BBB1B733671008D4426 /* Social.framework */,
+				36DE01281B7285350002B269 /* libstdc++.6.dylib */,
+				36DE01261B7285240002B269 /* libz.1.1.3.dylib */,
+				36DE01241B7285170002B269 /* libsqlite3.dylib */,
+				36840BC11B733ACE008D4426 /* Bolts.framework */,
+				36840BC21B733ACE008D4426 /* Parse.framework */,
+				36840BC31B733ACE008D4426 /* ParseCrashReporting.framework */,
+				36840BC41B733ACE008D4426 /* ParseUI.framework */,
+				32ED546A6D09611CA6FFC548 /* libPods-Lipton Lays.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36FD57B01B6D4D59004AE21E /* Lipton Lays */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36FD57D41B6D4D59004AE21E /* Build configuration list for PBXNativeTarget "Lipton Lays" */;
+			buildPhases = (
+				2EF93CA55DF69CC444800B2D /* Check Pods Manifest.lock */,
+				36FD57AD1B6D4D59004AE21E /* Sources */,
+				36FD57AE1B6D4D59004AE21E /* Frameworks */,
+				36FD57AF1B6D4D59004AE21E /* Resources */,
+				6144EB44F96B6E81DC4A5F3E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lipton Lays";
+			productName = "Lipton Lays";
+			productReference = 36FD57B11B6D4D59004AE21E /* Lipton Lays.app */;
+			productType = "com.apple.product-type.application";
+		};
+		36FD57C91B6D4D59004AE21E /* Lipton LaysTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36FD57D71B6D4D59004AE21E /* Build configuration list for PBXNativeTarget "Lipton LaysTests" */;
+			buildPhases = (
+				36FD57C61B6D4D59004AE21E /* Sources */,
+				36FD57C71B6D4D59004AE21E /* Frameworks */,
+				36FD57C81B6D4D59004AE21E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36FD57CC1B6D4D59004AE21E /* PBXTargetDependency */,
+			);
+			name = "Lipton LaysTests";
+			productName = "Lipton LaysTests";
+			productReference = 36FD57CA1B6D4D59004AE21E /* Lipton LaysTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36FD57A91B6D4D59004AE21E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Kenan Karakecili";
+				TargetAttributes = {
+					36FD57B01B6D4D59004AE21E = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = W93283LC7F;
+					};
+					36FD57C91B6D4D59004AE21E = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 36FD57B01B6D4D59004AE21E;
+					};
+				};
+			};
+			buildConfigurationList = 36FD57AC1B6D4D59004AE21E /* Build configuration list for PBXProject "Lipton Lays" */;
+			compatibilityVersion = "Xcode 6.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 36FD57A81B6D4D59004AE21E;
+			productRefGroup = 36FD57B21B6D4D59004AE21E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36FD57B01B6D4D59004AE21E /* Lipton Lays */,
+				36FD57C91B6D4D59004AE21E /* Lipton LaysTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36FD57AF1B6D4D59004AE21E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36FD57C01B6D4D59004AE21E /* Main.storyboard in Resources */,
+				36FD57C21B6D4D59004AE21E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36FD57C81B6D4D59004AE21E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2EF93CA55DF69CC444800B2D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6144EB44F96B6E81DC4A5F3E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lipton Lays/Pods-Lipton Lays-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36FD57AD1B6D4D59004AE21E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				366B223B1B6E79B4002137F5 /* VisitTableViewCell.m in Sources */,
+				366B22361B6E3D84002137F5 /* TabBarCollectionViewCell.m in Sources */,
+				366B221C1B6E0180002137F5 /* Team.m in Sources */,
+				361EF6C41B6FB55B00E36574 /* PhotoCollectionViewCell.m in Sources */,
+				361EF6B31B6F54F100E36574 /* GetRequest.m in Sources */,
+				366B221F1B6E05FD002137F5 /* ConnectionHandler.m in Sources */,
+				366D26B11B7180520062DE3B /* CountViewController.m in Sources */,
+				366AC1101B700FD7005BA280 /* Top10TableViewCell.m in Sources */,
+				366B22111B6DFBE0002137F5 /* CustomField.m in Sources */,
+				366B22251B6E2859002137F5 /* Reachability.m in Sources */,
+				361EF6BB1B6F8B2700E36574 /* NewVisitViewController.m in Sources */,
+				36FD57BA1B6D4D59004AE21E /* AppDelegate.m in Sources */,
+				369C42AF1B6D608B0073AA1A /* BaseViewController.m in Sources */,
+				361EF6CA1B6FBD4000E36574 /* AddVisitRequest.m in Sources */,
+				36FD57B71B6D4D59004AE21E /* main.m in Sources */,
+				366B22221B6E08C7002137F5 /* LiptonAPI.m in Sources */,
+				366B22151B6DFFDA002137F5 /* BaseRequest.m in Sources */,
+				366B22311B6E39D9002137F5 /* ContainerViewController.m in Sources */,
+				366B22181B6E0157002137F5 /* AddTeamRequest.m in Sources */,
+				366D26AE1B716DA50062DE3B /* PhotoDetailViewController.m in Sources */,
+				361EF6B81B6F8A8B00E36574 /* Visit.m in Sources */,
+				366AC10B1B700DA1005BA280 /* Top10ViewController.m in Sources */,
+				361EF6BE1B6F970100E36574 /* VisitDetailViewController.m in Sources */,
+				366B22291B6E38F0002137F5 /* VisitsViewController.m in Sources */,
+				361EF6C11B6F9D5B00E36574 /* UIImage+FixOrientation.m in Sources */,
+				369C42B21B6D60A60073AA1A /* CreateTeamViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36FD57C61B6D4D59004AE21E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36FD57D11B6D4D59004AE21E /* Lipton_LaysTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		36FD57CC1B6D4D59004AE21E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36FD57B01B6D4D59004AE21E /* Lipton Lays */;
+			targetProxy = 36FD57CB1B6D4D59004AE21E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		36FD57BE1B6D4D59004AE21E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36FD57BF1B6D4D59004AE21E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		36FD57D21B6D4D59004AE21E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		36FD57D31B6D4D59004AE21E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		36FD57D51B6D4D59004AE21E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDADE08674279B0DF692F08A /* Pods-Lipton Lays.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/kenankarakecili/Downloads/parse-starter-project-1/ParseStarterProject",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Lipton Lays/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		36FD57D61B6D4D59004AE21E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FF29D2322D96C0B99C22ACD /* Pods-Lipton Lays.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/kenankarakecili/Downloads/parse-starter-project-1/ParseStarterProject",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Lipton Lays/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		36FD57D81B6D4D59004AE21E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Lipton LaysTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lipton Lays.app/Lipton Lays";
+			};
+			name = Debug;
+		};
+		36FD57D91B6D4D59004AE21E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Lipton LaysTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lipton Lays.app/Lipton Lays";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36FD57AC1B6D4D59004AE21E /* Build configuration list for PBXProject "Lipton Lays" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36FD57D21B6D4D59004AE21E /* Debug */,
+				36FD57D31B6D4D59004AE21E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36FD57D41B6D4D59004AE21E /* Build configuration list for PBXNativeTarget "Lipton Lays" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36FD57D51B6D4D59004AE21E /* Debug */,
+				36FD57D61B6D4D59004AE21E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36FD57D71B6D4D59004AE21E /* Build configuration list for PBXNativeTarget "Lipton LaysTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36FD57D81B6D4D59004AE21E /* Debug */,
+				36FD57D91B6D4D59004AE21E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36FD57A91B6D4D59004AE21E /* Project object */;
+}
